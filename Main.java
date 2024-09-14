@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-// функцию main писали вместе
+// функцию main писали вместе (iKokich,K-A-Babenko,youngpika)
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
