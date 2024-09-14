@@ -77,7 +77,7 @@ public class Main {
         scanner.close();
     }
 }
-// Person писал iKokich(Никита)
+// Person писал iKokich(Никита Сметанко)
 class Person {
     private String name;
     private int age;
@@ -105,7 +105,7 @@ class Person {
         System.out.printf("Person: %s, Age: %d, Position: %s\n", name, age, position);
     }
 
-    // Вложенный класс Admin писал iKokich
+    // Вложенный класс Admin писал iKokich (Никита Сметанко)
     public static class Admin extends Person {
         private int exp;
 
@@ -123,7 +123,7 @@ class Person {
             return exp;
         }
     }
-// писал Женя youngpika
+// писал Женя Рассомакин (youngpika)
     public static class Seller extends Person {
         public int countOfSales;
 
@@ -135,7 +135,7 @@ class Person {
             return countOfSales;
         }
     }
-// писал Женя youngpika
+// писал Женя Рассомакин (youngpika)
     public static class Client extends Person {
         private int wallet;
 
@@ -153,7 +153,7 @@ class Person {
         }
     }
 }
-// писал Кирилл Бабенко
+// писал Кирилл Бабенко (K-A-Babenko)
 class Car {
     private String model;
     private double price;
@@ -176,7 +176,7 @@ class Car {
         return "Model: " + model + ", Price: $" + price;
     }
 }
-//Писал Кирилл Бабенко
+//Писал Кирилл Бабенко (K-A-Babenko)
 class CarShop {
     private List<Car> cars;
 
